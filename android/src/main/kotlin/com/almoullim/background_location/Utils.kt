@@ -19,7 +19,7 @@ package com.almoullim.background_location
 
 import android.content.Context
 
-internal object Utils {
+object Utils {
 
     private const val KEY_REQUESTING_LOCATION_UPDATES = "requesting_location_updates"
     private const val SHARED_PREFERENCES_FILE = "${BackgroundLocationPlugin.PLUGIN_ID}_preferences"
